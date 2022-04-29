@@ -4,14 +4,22 @@
 
 body {
     width: 100%;
+    min-height: 100vh;
+    background-color: rgb(61, 61, 100);
+   
+}
+.nav{
+    text-align: center;
+    width: 100%;
     max-width: 900px;
     min-height: 100vh;
     background-color: rgb(61, 61, 100);
+    background-color: blueviolet;
     color: #fff;
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #914f4f;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 button {

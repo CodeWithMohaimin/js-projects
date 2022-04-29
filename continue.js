@@ -2,13 +2,13 @@
 
 
 
-// for (let num = 0; num <= 10; num++){
-//     if (num === 4 || num === 5) {
-//         continue
-//     } else {
-//         console.log(num)
-//     }
-// }
+for (let num = 0; num <= 10; num++){
+    if (num === 4 || num === 5) {
+        continue
+    } else {
+        console.log(num)
+    }
+}
 
 
 //another statement
