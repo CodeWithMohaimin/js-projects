@@ -2,11 +2,11 @@
 
 let arr = [1, 2, 3,4]
 
-// var myArr = arr.map(function (value) {
-//     return value*value
-// })
-// console.log(arr);
-// console.log(myArr);
+var myArr = arr.map(function (value) {
+    return value*value
+})
+console.log(arr);
+console.log(myArr);
 
 
 function myMap(arr,cb) {

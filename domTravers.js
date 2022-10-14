@@ -4,12 +4,12 @@
 //02. Spread Operator
 
 ///========== ForEach ===========///
-// forEach(function(value , index, arr){
+forEach(function(value , index, arr){
 
-// })
-// forEach((value, index, arr) => {
+})
+forEach((value, index, arr) => {
     
-// })
+})
 ///========== Spread Operator ===========///
 //convert obj to Array by using ...object = Array
 
@@ -17,14 +17,14 @@
 
 //Traversing Dom
 
-// let listItem = document.getElementsByTagName('li');
+let listItem = document.getElementsByTagName('li');
 
-// let listItemArr = [...listItem]
+let listItemArr = [...listItem]
 
-// listItemArr.forEach((li, num) => {
-//     let text = li.innerHTML
-//     li.innerHTML = `(${num + 1}) ${text}`
-// })
+listItemArr.forEach((li, num) => {
+    let text = li.innerHTML
+    li.innerHTML = `(${num + 1}) ${text}`
+})
 
 let line = document.getElementsByTagName('li');
 
